@@ -1,1 +1,3 @@
 # Sea-clutter-simulation
+This repository contains a sea clutter simulation script that relies only on base MATLAB functions. The pipeline includes directional-spectrum sea surface synthesis, point-scatterer echo summation within the mainlobe footprint, matched filtering for range imaging and range–time plots, short-time Fourier transform (STFT) speed–time analysis at a fixed range bin, and amplitude statistics via a Weibull fit.
+The workflow is inspired by public examples on simulating radar returns from moving sea surfaces; this implementation replaces toolbox objects and specialized models with engineering approximations.
